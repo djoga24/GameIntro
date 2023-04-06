@@ -52,7 +52,7 @@ public class GameIntro {
     private void showGameWindow() {
         // Set up game frame
         gameFrame = new JFrame("Game");
-        gameFrame.setSize(300, 200);
+        gameFrame.setSize(300, 201);
         gameFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 
         // Set up game panel
