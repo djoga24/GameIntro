@@ -11,9 +11,10 @@ public class GameIntro {
     private JTextField guessField;
     private JLabel guessLabel;
 
+
     // Create a random object to generate a random number between 0 and 100
     Random rand = new Random();
-    private int answer = rand.nextInt(101);
+    private int answer = rand.nextInt(0,101);
 
 
     // Constructor for the GameIntro class
